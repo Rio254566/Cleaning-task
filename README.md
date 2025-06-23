@@ -30,19 +30,20 @@ The dataset includes daily stock market metrics and macroeconomic indicators suc
 - Dropped/handled unnecessary or constant columns
 - Separated multiple stock indices into separate datasets
 
-  Encoding
+  **Encoding**
   Converted categorical features (e.g., `Stock Index`) using **Label Encoding
 
-  Exploratory Data Analysis (EDA)
+  **Exploratory Data Analysis (EDA)**
 - Visualized distributions using  **boxplots**
 - Detected and analyzed outliers
 
-  Outlier Detection
+  **Outlier Detection**
 - Performed **IQR-based outlier detection** on original data
 - Verified using **boxplots**
 - Confirmed that the dataset had **no significant outliers**
+  
 
-  Feature Scaling
+  **Feature Scaling**
 - Applied **Standardization (Z-score normalization)** to numerical features
 - Prepared the dataset for machine learning models that require scaled input
 
